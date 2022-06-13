@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="arquivo.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="teste pagina html">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Pedro Motta">
+    <meta name="robots" content="index, follow">
+    <title>Primeira página web</title>
+    <script>
+        window.onload = function(){
+            document.getElementById("alterarp").addEventListener("click", function(){
+                var meup =document.getElementById("meup")
+                meup.innerHTML = "Mudei <strong>meu parágrafo...</strong>"
+            })
+        }
+    </script>
+
+</head>
+<body>
+    
+    <div>
+        <a href="#vaipraca">fundopage</a>
+        <h1>Olá mundo!</h1>
+        <p style="color: red">Testando <span style="color: blue">ablu blua blua bua</span>  um parágrafo</p>
+        <h2>kakaka</h2>
+        <p id="meup">
+            Mussum <strong>Ipsum</strong>, cacilds <em> litro abertis</em>. Cevadis im ampola pa arma uma pindureta.
+            Manduma pindureta quium dia nois paga.Nec orci ornare consequat. 
+            Praesent <u>ultrices consectetur.</u> 
+            Sed non ipsum felis.<q>Paisis</q>, filhis, espiritis santis.
+        </p>
+
+        <button id="alterarp">Mudar o parágrafo</button> <br>
+        
+        <img src="images/arvore.jpg" alt="imagem com arvore" width="100"> <br>
+        <img src="images/arvore.jpg" alt="imagem com arvore" width="100">   
+        <img src="images/arvore.jpg" alt="imagem com arvore" width="100"> <br>
+        <img src="images/arvore.jpg" alt="imagem com arvore" width="100">
+        <img src="images/arvore.jpg" alt="imagem com arvore" width="100">
+
+        <ol>
+            <li>banana</li>
+            <li>maçã</li>
+            <li>pera</li>
+            <li>abacaxi</li>
+            <li>melão</li>
+        </ol>
+
+        <h2>testando lorem  ipsum</h2>
+        <p id="vaipraca">
+            Mussum <b>Ipsum</b>, cacilds <i> litro abertis</i>. Cevadis im ampola pa arma uma pindureta.
+            Manduma pindureta quium dia nois paga.Nec orci ornare consequat. 
+            Praesent <u>ultrices consectetur.</u> 
+            Sed non ipsum felis.Paisis, filhis, espiritis santis.
+        </p>
+
+        <iframe src="https://www.youtube.com/watch?v=33tj5B5UDA4&ab_channel=RafaellaBallerini" height="300">video da rafa</iframe>
+        <br>
+        <a href="https://www.youtube.com/watch?v=33tj5B5UDA4&ab_channel=RafaellaBallerini" target="_blank">
+            Link para o video da rafa RafaellaBallerini
+        </a> <br> <br> <br>
+        <a href="https://www.youtube.com/watch?v=33tj5B5UDA4&ab_channel=RafaellaBallerini" target="_blank">
+            <img width="50" src="images/android-chrome-192x192.png" alt="Foto aleatoria">
+        </a>
+
+    </div>
+
+    <div>
+        <table border="1">
+            <caption>Tabela 1 da relação de clientes ABC Company</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Nome</th>
+                    <th rowspan="2">Telefone</th>
+                    <th colspan="3">Endereço</th>
+                </tr>
+                <tr>
+                    <th>Rua</th>
+                    <th>número</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pedro Motta</td>
+                    <td>(81) 99800-5656</td>
+                    <td>Rua 1</td>
+                    <td>69</td>
+                    <td>Olinda</td>
+                </tr>
+                <tr>
+                    <td>Cicrano</td>
+                    <td>(81)95562-8869</td>
+                    <td></td>
+                    <td>89</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Lucas Motta</td>
+                    <td>(81) 91230-5423</td>
+                    <td>Rua 2</td>
+                    <td>96</td>
+                    <td>Recife</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Para maiores informações, entre em contato conosco</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {background-color: azure;}
+        h1 {color: brown;}
+        h2 {color: yellow;}
+        p {color: steelblue;}
+        li {color: tomato;}
+        table{
+            width: 50%;
+            border-collapse: separate;
+            border-spacing: 5px 10px ;
+            border: 2px solid blueviolet;
+            color: black;
+            empty-cells: hide;
+        }
+        thead{
+            color: brown;
+            font-size: 16pt;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        tbody{
+            font-weight: bold;
+            text-align: left;
+        }
+        tbody tr:hover{
+            background-color: tomato;
+        }
+        tfoot{
+            color: gray;
+            font-size: 10pt;
+        }
+        tr, td, th{    
+            border: 2px solid blueviolet;
+        }
+        caption{
+            caption-side: bottom;
+            color: yellowgreen;
+            font-size: 9pt;
+            text-align: right;
+        }
